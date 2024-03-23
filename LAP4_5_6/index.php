@@ -1,7 +1,8 @@
 <?php
+// Include the header file
 include_once("header.php");
 ?>
-<!-- lab 4 là 4,5,6 -->
+<!-- lab 4,5,6 -->
 <ul>
     <li>
         <a href="product-list.php">List of products</a>
@@ -14,5 +15,6 @@ include_once("header.php");
 </ul>
 
 <?php
+// Include the footer file
 include_once("footer.php");
 ?>

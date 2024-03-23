@@ -1,13 +1,14 @@
+/* The code you provided is the basic structure of an HTML document. Let me break it down for you: */
 <!DOCTYPE html>
 <html>
 
 <head>
     <title>Object Oriented Programming PHP</title>
-    <!-- Unicode Vietnamese -->
+    <!-- Charset and author information --> 
     <meta charset="utf-8">
     <meta name="author" content="trendemy.com" />
-    <!-- CSS definition file -->
 
+    <!-- Link to CSS file -->
     <link href="site.css" rel="stylesheet" />
 </head>
 

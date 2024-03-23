@@ -1,7 +1,11 @@
+/* The provided code is a PHP script that displays a table of products. Here is a breakdown of what the
+code does: */
 <?php
+// Include the product class file
 require_once('entities/product.class.php');
 ?>
 <?php
+// Include the header file
 include_once('header.php');
 $prods = Product::list_product();
 ?>
@@ -35,4 +39,6 @@ $prods = Product::list_product();
 </div>
 
 <?php
+// Include the footer file
 include_once('footer.php');
+?>

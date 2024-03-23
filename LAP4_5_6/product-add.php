@@ -1,6 +1,10 @@
 <?php
+// Include the product class file
 require_once("entities/product.class.php");
+// Include the category class file
 require_once('entities/category.class.php');
+
+// Check if form is submitted
 if (isset($_POST["btnsubmit"])) {
     //Get value from form
     $productName = $_POST["txtname"];
